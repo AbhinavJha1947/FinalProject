@@ -1,0 +1,71 @@
+/* login.component.css */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label, input {
+    margin: 10px;
+  }
+  
+  .forget-password {
+    margin-top: 10px;
+    color: #007bff; /* Blue link color */
+  }
+  
+  .login-button {
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .signup-link {
+    margin-top: 20px;
+  }
+  
+  .signup-link span {
+    margin-right: 5px;
+  }
+  
+  .login-with-google {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-with-google span {
+    margin-bottom: 5px;
+  }
+  
+  .google-login-button {
+    background-color: #db4437; /* Google red color */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .google-login-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
